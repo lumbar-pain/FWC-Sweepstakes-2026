@@ -15,7 +15,7 @@
 const DEFAULT_SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4sK22IRt92wdznp0pICuZK2UQD9pCnH9TZUunISPvpYQNw8vT6UogmHdbSvMbJkouh5mjRQmKqwL_/pub?output=csv";
 // Optional: paste the published CSV URL for Sheet 2 / TeamControl here.
 // You can also open the page with ?teamsheet=YOUR_PUBLISHED_SHEET2_CSV_URL.
-const DEFAULT_TEAM_CONTROL_URL = "";
+const DEFAULT_TEAM_CONTROL_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4sK22IRt92wdznp0pICuZK2UQD9pCnH9TZUunISPvpYQNw8vT6UogmHdbSvMbJkouh5mjRQmKqwL_/pub?gid=120616805&single=true&output=csv";
 const ELIMINATED_TEAMS = [];
 const COACH_TEAMS={"Bradley":["Uzbekistan","Colombia","Jordan"],"Oskar":["Ghana","Uruguay","Morocco"],"Philip":["Iraq","Ivory Coast","Scotland"],"Viv":["Canada","Japan","Germany"],"Ben":["Egypt","New Zealand","Cape Verde"],"Sam":["Mexico","Bosnia and Herzegovina","Türkiye"],"Simone":["Belgium","Algeria","Qatar"],"Lakshmy":["Curaçao","Switzerland","Haiti"],"Imogen":["Spain","Ecuador","England"],"Milan":["United States","Sweden","DR Congo"],"Reeva":["Netherlands","Portugal","South Africa"],"Grant":["Paraguay","Austria","Australia"],"Santi":["Iran","South Korea","France"],"Emma":["Saudi Arabia","Czechia","Argentina"],"Simona":["Tunisia","Croatia","Panama"],"Monique":["Brazil","Norway","Senegal"]};
 const TEAM_COACH=Object.fromEntries(Object.entries(COACH_TEAMS).flatMap(([c,ts])=>ts.map(t=>[t,c])));
